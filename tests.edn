@@ -1,0 +1,1 @@
+#kaocha/v1 {:kaocha.plugin.capture-output/capture-output? true}

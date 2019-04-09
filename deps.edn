@@ -1,0 +1,7 @@
+{:paths ["resources" "src"]
+ :deps {org.clojure/clojure {:mvn/version "1.9.0"}
+        funcool/cats {:mvn/version "2.3.2"}}
+ :aliases
+ {:test {:extra-deps  {lambdaisland/kaocha {:mvn/version "0.0-413"}}
+         :extra-paths ["test"]
+         :main-opts   ["-m" "kaocha.runner" "--watch"]}}}
